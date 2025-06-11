@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مواضيع معدل الادخار</title>
+    <link rel="stylesheet" href="../main/Main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-right">
+          <button id="menu-btn" class="menu-btn">&#9776;</button>
+          <img src="../logo.jpg" alt="شعار الموقع" class="logo" />
+          <div class="header-text">
+            <p>
+              اكتشف كل ما يتعلق بمعدل الادخار وأهميته في تحقيق الاستقرار المالي
+            </p>
+          </div>
+        </div>
+        <div class="header-left">
+          <div class="search-box" style="position: relative">
+            <input type="text" class="search-input" placeholder="ابحث هنا..." />
+            <button class="search-btn">بحث</button>
+            <div
+              id="suggestions"
+              class="suggestions-list"
+              style="
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 45px;
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px #ccc;
+                width: 220px;
+                z-index: 999;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <button id="close-sidebar" class="close-btn">&times;</button>
+      <div class="sidebar-content">
+        <h2>دورة ابو اشرف</h2>
+        <div class="progress-bar">
+          <div class="progress" style="width: 3%"></div>
+        </div>
+        <ul class="sidebar-menu">
+          <li>
+            <a href="../main/Main.html"><span class="icon">🏠</span>الرئيسية</a>
+          </li>
+          <li>
+            <a href="../page 2/page 2.1.html"
+              ><span class="icon">📖</span>تعريف معدل الادخار</a
+            >
+          </li>
+          <li>
+            <a href="../page 2/page 2.2.html"
+              ><span class="icon">📊</span>أنواع معدل الادخار</a
+            >
+          </li>
+          <li>
+            <a href="../page 2/page 2.3.html"
+              ><span class="icon">⚙️</span>العوامل المؤثرة</a
+            >
+          </li>
+          <li>
+            <a href="../page 2/page 2.4.html"
+              ><span class="icon">📈</span>تطور معدل الادخار</a
+            >
+          </li>
+          <li>
+            <a href="../page 2/page 2.5.html"
+              ><span class="icon">❗</span>مشكلات معدل الادخار</a
+            >
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <div class="option-buttons">
+        <button
+          class="option-btn"
+          onclick="window.location.href='page 2.1.html'"
+        >
+          <i class="fas fa-book"></i>
+          <span>تعريف معدل الادخار</span>
+        </button>
+        <button
+          class="option-btn"
+          onclick="window.location.href='page 2.2.html'"
+        >
+          <i class="fas fa-chart-bar"></i>
+          <span>أنواع معدل الادخار</span>
+        </button>
+        <button
+          class="option-btn"
+          onclick="window.location.href='page 2.3.html'"
+        >
+          <i class="fas fa-cogs"></i>
+          <span>العوامل المؤثرة</span>
+        </button>
+        <button
+          class="option-btn"
+          onclick="window.location.href='page 2.4.html'"
+        >
+          <i class="fas fa-chart-line"></i>
+          <span>تطور معدل الادخار</span>
+        </button>
+        <button
+          class="option-btn"
+          onclick="window.location.href='page 2.5.html'"
+        >
+          <i class="fas fa-exclamation-triangle"></i>
+          <span>مشكلات معدل الادخار</span>
+        </button>
+      </div>
+
+      <div class="home-button-container">
+        <button
+          class="home-btn"
+          onclick="window.location.href='../main/Main.html'"
+        >
+          <i class="fas fa-home"></i>
+          <span>الصفحة الرئيسية</span>
+        </button>
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        صنع بواسطة: طلاب نظم ومعلومات |
+        <a href="https://ohi.edu.eg/">ohi.edu.eg</a>
+      </p>
+    </footer>
+    <script src="../main/Main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تعريف سعر الصرف</title>
+    <link rel="stylesheet" href="../main/Main.css">
+    <link rel="stylesheet" href="pade 1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+           
+            <div class="header-right">
+               <button id="menu-btn" class="menu-btn">&#9776;</button>
+                <img src="../logo.jpg" alt="شعار الموقع" class="logo">
+                <nav class="main-nav">
+                   <a href="../main/Main.html">الرئيسية</a>
+                </nav>
+            </div>
+            <div class="header-left">
+                <div class="search-box" style="position: relative">
+            <input type="text" class="search-input" placeholder="ابحث هنا..." />
+            <button class="search-btn">بحث</button>
+            <div
+              id="suggestions"
+              class="suggestions-list"
+              style="
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 45px;
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px #ccc;
+                width: 220px;
+                z-index: 999;
+              "
+            ></div>
+          </div>
+            </div>
+        </div>
+    </header>
+ <aside id="sidebar" class="sidebar">
+      <button id="close-sidebar" class="close-btn">&times;</button>
+      <div class="sidebar-content">
+        <div class="progress-bar">
+          <div class="progress" style="width: 3%"></div>
+        </div>
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu1', this)"
+              >سعر الصرف <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu1" class="submenu">
+              <li><a href="../page1/page 1.1.html">تعريف سعر الصرف</a></li>
+              <li><a href="../page1/page 1.2.html">أنواع سعر الصرف</a></li>
+              <li><a href="../page1/page 1.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page1/page 1.4.html">تطور سعر الصرف</a></li>
+              <li><a href="../page1/page 1.5.html">مشكلات سعر الصرف</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu2',this)"
+              >معدل الادخار <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu2" class="submenu">
+              <li><a href="../page2/page 2.1.html">تعريف معدل الادخار</a></li>
+              <li><a href="../page2/page 2.2.html">أنواع معدل الادخار</a></li>
+              <li><a href="../page2/page 2.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page2/page 2.4.html">تطور معدل الادخار</a></li>
+              <li><a href="../page2/page 2.5.html">مشكلات معدل الادخار</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu3' ,this)"
+              >العلاقة بينهم <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu3" class="submenu">
+              <li><a href="../page3/page 3.1.html">تأثير سعر الصرف</a></li>
+              <li><a href="../page3/page 3.2.html">تقلبات سعر الصرف</a></li>
+              <li><a href="../page3/page 3.3.html">استقرار سعر الصرف</a></li>
+              <li><a href="../page3/page 3.4.html">سعر الصرف الحقيقي</a></li>
+              <li><a href="../page3/page 3.5.html">السياسات النقدية</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu4' ,this)"
+              > بنك مصر <span class="arrow">&#9656;</span></a
+            >
+             <ul id="menu4" class="submenu">
+              <li><a href="../page4/page 4.1.html">نبذة عن بنك مصر</a></li>
+             </ul>
+        </li> 
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+        <div class="content">
+            <h1>تعريف سعر الصرف</h1>
+            <img src="../img/img1.png" alt="سعر الصرف" class="content-image">
+            <p>سعر الصرف هو قيمة عملة معينة مقارنة بعملة أخرى...</p>
+            <h2>اهمية سعر الصرف:</h2>
+                <h3>يُعتبر سعر الصرف من الركائز الأساسية في علم الاقتصاد، ويعني ببساطة قيمة عملة معينة مقارنةً بعملة أخرى. وهو يُستخدم لتحديد عدد الوحدات من العملة المحلية التي يجب دفعها للحصول على وحدة واحدة من عملة أجنبية.</h3>
+                <h3>فعلى سبيل المثال، إذا كان سعر صرف الدولار الأمريكي مقابل الجنيه المصري هو 30 جنيهًا، فإن ذلك يعني أن الحصول على دولار واحد يتطلب دفع 30 جنيهًا مصريًا.</h3>
+            
+                <h3>ويُستخدم سعر الصرف في جميع المعاملات التجارية والمالية بين الدول، مثل الاستيراد والتصدير، وتحويل الأموال، والسفر، والسياحة، والاستثمارات الأجنبية. أي أنه يُعد أداة رئيسية في تسهيل حركة الأموال والسلع والخدمات عبر الحدود. ومن هنا تظهر أهمية فهمه، ومتابعة تغيراته، وتحليله بدقة سواء من قبل الأفراد أو الشركات أو الحكومات.</h3>
+            
+            <h2>الدور الاقتصادي لسعر الصرف:</h2>
+            
+                <h3>يلعب سعر الصرف دورًا مهمًا في تحديد القوة الشرائية للعملة المحلية مقارنةً بالعملات الأجنبية، وهو من أبرز المؤشرات التي تعكس حالة الاقتصاد في الدولة. فعندما ترتفع قيمة العملة المحلية، تزداد قدرتها على شراء السلع والخدمات الأجنبية، مما قد يقلل من تكلفة الاستيراد. أما في حال انخفاض قيمتها، فإن تكلفة الاستيراد ترتفع، وهو ما قد يؤدي إلى زيادة في أسعار السلع داخل الدولة، وبالتالي ارتفاع معدلات التضخم.</h3>
+            
+                <h3>كما أن سعر الصرف يؤثر بشكل كبير على حركة رؤوس الأموال الدولية. فالمستثمرون الأجانب عادةً ما يفضلون الاستثمار في الدول ذات العملات المستقرة، لأن تقلبات سعر الصرف تشكل خطرًا مباشرًا على أرباحهم. وبالتالي، فإن استقرار سعر الصرف يعتبر من عوامل جذب الاستثمار الأجنبي المباشر، والذي بدوره يعزز النمو الاقتصادي ويوفر فرص عمل.</h3>
+            
+            <h2>تحديد سعر الصرف:</h2>
+            
+                <h3>يتم تحديد سعر الصرف من خلال آليات متعددة، أهمها سوق العملات الأجنبية، أو ما يُعرف باسم سوق الفوركس (Forex Market). في هذا السوق، يتم شراء وبيع العملات بشكل لحظي، ويتأثر سعر الصرف بعدة عوامل رئيسية، مثل:</h2>
+                <h3>•	معدل الفائدة البنكية.</h3>
+                <h3>•	معدلات التضخم.</h3>
+                <h3>•	نمو الناتج المحلي الإجمالي.</h3>
+                <h3>•	الاحتياطي النقدي من العملات الأجنبية.</h3>
+                <h3>•	الظروف السياسية والاستقرار الأمني.</h3>
+            
+                <h3>كل هذه العوامل تتداخل لتُكوِّن صورة شاملة عن الاقتصاد المحلي، وبالتالي تؤثر بشكل مباشر على قيمة العملة وسعر صرفها.</h3>
+            
+            <h2>سعر الصرف والحياة اليومية:</h2>
+            
+                <h3>رغم أن مصطلح "سعر الصرف" يبدو اقتصاديًا أو ماليًا بحتًا، إلا أن تأثيره يمتد ليشمل حياة الأفراد بشكل مباشر. فمثلًا، عندما يسافر شخص إلى دولة أخرى، فهو يحتاج إلى تحويل عملته المحلية إلى عملة الدولة التي يزورها، وهنا يأتي دور سعر الصرف. كذلك، فإن أي تغيير في سعر صرف العملة يمكن أن يؤثر على أسعار السلع المستوردة، تكلفة الوقود، أسعار الإلكترونيات، الأجهزة المنزلية، وحتى المنتجات الغذائية.</h3>
+            
+            <h2>ومن ناحية أخرى:</h2>
+                <h3> فإن المغتربين الذين يرسلون أموالًا إلى ذويهم في بلدهم الأم، يتأثرون بشكل مباشر بسعر الصرف، حيث تتغير قيمة المبالغ المحوّلة بناءً عليه. ولهذا السبب، فإن استقرار سعر الصرف يعتبر مهمًا لتحقيق توازن اقتصادي واجتماعي داخل الدول</h3>
+
+            <h2>شاهد هذا الفيديو التوضيحي</h2>
+            <video controls class="content-video">
+                <source src="../sar.mp4" type="video/mp4">
+                عذراً، متصفحك لا يدعم تشغيل الفيديو.
+            </video>
+        </div>
+
+        <a href="../page1/page 1.2.html" class="next-page-btn">
+            <span>الصفحة التالية</span>
+            <i class="fas fa-arrow-left"></i>
+        </a>
+    </main>
+
+    <footer>
+        <p>صنع بواسطة: طلاب نظم ومعلومات | <a href="https://ohi.edu.eg/">ohi.edu.eg</a></p>
+    </footer>
+    <script src="../main/Main.js"></script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أنواع سعر الصرف</title>
+    <link rel="stylesheet" href="../main/Main.css" />
+    <link rel="stylesheet" href="pade 1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-right">
+          <button id="menu-btn" class="menu-btn">&#9776;</button>
+          <img src="../logo.jpg" alt="شعار الموقع" class="logo" />
+          <nav class="main-nav">
+           <a href="../main/Main.html">الرئيسية</a>
+          </nav>
+        </div>
+        <div class="header-left">
+          <div class="search-box" style="position: relative">
+            <input type="text" class="search-input" placeholder="ابحث هنا..." />
+            <button class="search-btn">بحث</button>
+            <div
+              id="suggestions"
+              class="suggestions-list"
+              style="
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 45px;
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px #ccc;
+                width: 220px;
+                z-index: 999;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+ <aside id="sidebar" class="sidebar">
+      <button id="close-sidebar" class="close-btn">&times;</button>
+      <div class="sidebar-content">
+        <div class="progress-bar">
+          <div class="progress" style="width: 3%"></div>
+        </div>
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu1', this)"
+              >سعر الصرف <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu1" class="submenu">
+              <li><a href="../page1/page 1.1.html">تعريف سعر الصرف</a></li>
+              <li><a href="../page1/page 1.2.html">أنواع سعر الصرف</a></li>
+              <li><a href="../page1/page 1.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page1/page 1.4.html">تطور سعر الصرف</a></li>
+              <li><a href="../page1/page 1.5.html">مشكلات سعر الصرف</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu2',this)"
+              >معدل الادخار <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu2" class="submenu">
+              <li><a href="../page2/page 2.1.html">تعريف معدل الادخار</a></li>
+              <li><a href="../page2/page 2.2.html">أنواع معدل الادخار</a></li>
+              <li><a href="../page2/page 2.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page2/page 2.4.html">تطور معدل الادخار</a></li>
+              <li><a href="../page2/page 2.5.html">مشكلات معدل الادخار</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu3' ,this)"
+              >العلاقة بينهم <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu3" class="submenu">
+              <li><a href="../page3/page 3.1.html">تأثير سعر الصرف</a></li>
+              <li><a href="../page3/page 3.2.html">تقلبات سعر الصرف</a></li>
+              <li><a href="../page3/page 3.3.html">استقرار سعر الصرف</a></li>
+              <li><a href="../page3/page 3.4.html">سعر الصرف الحقيقي</a></li>
+              <li><a href="../page3/page 3.5.html">السياسات النقدية</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu4' ,this)"
+              > بنك مصر <span class="arrow">&#9656;</span></a
+            >
+             <ul id="menu4" class="submenu">
+              <li><a href="../page4/page 4.1.html">نبذة عن بنك مصر</a></li>
+             </ul>
+        </li> 
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <div class="content">
+        <h1>أنواع أسعار الصرف</h1>
+        <img src="../img/img2.png" alt="سعر الصرف" class="content-image" />
+        <p>هناك نوعان رئيسيان من أسعار الصرف...</p>
+        <p>أنواع سعر الصرف</p>
+
+        <h2>
+          يتم تحديد سعر الصرف من خلال عدة أنظمة تعتمد على آلية تحديده ومدى تدخل
+          الحكومة أو البنك المركزي. وهذه الأنظمة هي:
+        </h2>
+        <h2>1. سعر الصرف الثابت:</h2>
+        <h3>
+          في هذا النظام، يتم تحديد سعر الصرف بواسطة البنك المركزي أو الحكومة،
+          ويظل ثابتًا لفترة طويلة. يتطلب هذا النظام من الدولة أن تحتفظ بكميات
+          كبيرة من الاحتياطيات النقدية الأجنبية لدعم العملة المحلية عند الحاجة.
+        </h3>
+        <h3>• مزايا: استقرار التجارة والاقتصاد، والثقة في العملة المحلية.</h3>
+        <h3>
+          • عيوب: قد يضع ضغطًا على الاحتياطيات المالية للدولة، ويصعب التكيف مع
+          التغيرات الاقتصادية.
+        </h3>
+        <h2>2. سعر الصرف العائم (المرن):</h2>
+        <h3>
+          في هذا النظام، يتحدد سعر الصرف بناءً على قوى السوق (العرض والطلب) دون
+          تدخل من البنك المركزي. هذا يؤدي إلى تقلبات مستمرة في سعر العملة.
+        </h3>
+        <h3>• مزايا: مرونة عالية وتكيف مع التغيرات الاقتصادية.</h3>
+        <h3>• عيوب: تقلبات قد تؤثر على الاستقرار الاقتصادي والتجارة.</h3>
+        <h2>3. سعر الصرف المُدار:</h2>
+        <h3>
+          هو مزيج بين النظامين السابقين، حيث يتحدد السعر بناءً على قوى السوق،
+          ولكن البنك المركزي يتدخل بشكل دوري للحد من التقلبات الكبيرة.
+        </h3>
+        <h3>• مزايا: مرونة مع قدرة على السيطرة على التقلبات.</h3>
+        <h3>
+          • عيوب: يتطلب تدخلًا مستمرًا من البنك المركزي وقد يؤثر على استقرار
+          الأسعار
+        </h3>
+      </div>
+
+      <a href="../page1/page 1.3.html" class="next-page-btn">
+        <span>الصفحة التالية</span>
+        <i class="fas fa-arrow-left"></i>
+      </a>
+    </main>
+
+    <footer>
+      <p>
+        صنع بواسطة: طلاب نظم ومعلومات |
+        <a href="https://ohi.edu.eg/">ohi.edu.eg</a>
+      </p>
+    </footer>
+    <script src="../main/Main.js"></script>
+  </body>
+</html>

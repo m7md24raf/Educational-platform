@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>أنواع معدل الادخار</title>
+    <link rel="stylesheet" href="../main/Main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-right">
+          <button id="menu-btn" class="menu-btn">&#9776;</button>
+          <img src="../logo.jpg" alt="شعار الموقع" class="logo" />
+          <nav class="main-nav">
+            <a href="../main/Main.html">الرئيسية</a>
+    
+          </nav>
+        </div>
+        <div class="header-left">
+          <div class="search-box" style="position: relative">
+            <input type="text" class="search-input" placeholder="ابحث هنا..." />
+            <button class="search-btn">بحث</button>
+            <div
+              id="suggestions"
+              class="suggestions-list"
+              style="
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 45px;
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px #ccc;
+                width: 220px;
+                z-index: 999;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+ <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <button id="close-sidebar" class="close-btn">&times;</button>
+      <div class="sidebar-content">
+        <div class="progress-bar">
+          <div class="progress" style="width: 3%"></div>
+        </div>
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu1', this)"
+              >سعر الصرف <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu1" class="submenu">
+              <li><a href="../page1/page 1.1.html">تعريف سعر الصرف</a></li>
+              <li><a href="../page1/page 1.2.html">أنواع سعر الصرف</a></li>
+              <li><a href="../page1/page 1.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page1/page 1.4.html">تطور سعر الصرف</a></li>
+              <li><a href="../page1/page 1.5.html">مشكلات سعر الصرف</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu2',this)"
+              >معدل الادخار <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu2" class="submenu">
+              <li><a href="../page2/page 2.1.html">تعريف معدل الادخار</a></li>
+              <li><a href="../page2/page 2.2.html">أنواع معدل الادخار</a></li>
+              <li><a href="../page2/page 2.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page2/page 2.4.html">تطور معدل الادخار</a></li>
+              <li><a href="../page2/page 2.5.html">مشكلات معدل الادخار</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu3' ,this)"
+              >العلاقة بينهم <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu3" class="submenu">
+              <li><a href="../page3/page 3.1.html">تأثير سعر الصرف</a></li>
+              <li><a href="../page3/page 3.2.html">تقلبات سعر الصرف</a></li>
+              <li><a href="../page3/page 3.3.html">استقرار سعر الصرف</a></li>
+              <li><a href="../page3/page 3.4.html">سعر الصرف الحقيقي</a></li>
+              <li><a href="../page3/page 3.5.html">السياسات النقدية</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu4' ,this)"
+              > بنك مصر <span class="arrow">&#9656;</span></a
+            >
+             <ul id="menu4" class="submenu">
+              <li><a href="../page4/page 4.1.html">نبذة عن بنك مصر</a></li>
+             </ul>
+        </li> 
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <div class="content">
+        <h1>أنواع معدل الادخار</h1>
+        <img
+          src="../img/img7.png"
+          alt="أنواع معدل الادخار"
+          class="content-image"
+        />
+        <p>
+          يختلف معدل الادخار باختلاف مستوى القياس والهدف المراد تحقيقه. فيما يلي
+          أهم أنواع معدلات الادخار:
+        </p>
+
+        <h2>معدل الادخار الشخصي:</h2>
+        <p>
+          هو النسبة المئوية من الدخل الشخصي التي يتم ادخارها بعد خصم جميع
+          مصروفات الاستهلاك. يعكس هذا المعدل قدرة الفرد على إدارة موارده المالية
+          وتخطيطه للمستقبل.
+        </p>
+
+        <h2>معدل الادخار الأسري:</h2>
+        <p>
+          يشير إلى النسبة المئوية من إجمالي دخل الأسرة التي يتم تخصيصها للادخار
+          بعد تغطية جميع المصروفات المنزلية. يعكس هذا المعدل الثقافة المالية
+          للأسرة وقدرتها على التخطيط المالي.
+        </p>
+
+        <h2>معدل الادخار الوطني:</h2>
+        <p>
+          هو النسبة المئوية من إجمالي الناتج المحلي التي يتم ادخارها على مستوى
+          الدولة. يعكس هذا المعدل قدرة الاقتصاد الوطني على توفير الموارد
+          للاستثمار والنمو.
+        </p>
+
+        <h2>معدل الادخار القسري:</h2>
+        <p>
+          يشير إلى الادخار الإلزامي الذي تفرضه الدولة أو المؤسسات المالية، مثل
+          اشتراكات التأمين الاجتماعي واشتراكات التقاعد.
+        </p>
+
+        <h2>معدل الادخار الاختياري:</h2>
+        <p>
+          هو الادخار الذي يقوم به الأفراد بمحض إرادتهم، مثل الادخار في البنوك أو
+          صناديق الاستثمار أو شراء الأصول.
+        </p>
+
+        <h2>معدل الادخار الاستثماري:</h2>
+        <p>
+          يشير إلى النسبة المئوية من الادخار التي يتم توجيهها للاستثمار في
+          مشاريع أو أصول منتجة، بدلاً من الاحتفاظ بها كسيولة.
+        </p>
+
+        <h2>معدل الادخار الوقائي:</h2>
+        <p>
+          هو الادخار الذي يتم تخصيصه للطوارئ والمخاطر المستقبلية، مثل الأمراض أو
+          فقدان الوظيفة أو الكوارث الطبيعية.
+        </p>
+
+        <h2>معدل الادخار التراكمي:</h2>
+        <p>
+          يشير إلى إجمالي الادخار المتراكم على مدى فترة زمنية معينة، ويعكس قدرة
+          الفرد أو الأسرة على بناء ثروة مالية.
+        </p>
+      </div>
+
+      <a href="../page2/page 2.3.html" class="next-page-btn">
+        <span>الصفحة التالية</span>
+        <i class="fas fa-arrow-left"></i>
+      </a>
+    </main>
+
+    <footer>
+      <p>
+        صنع بواسطة: طلاب نظم ومعلومات |
+        <a href="https://ohi.edu.eg/">ohi.edu.eg</a>
+      </p>
+    </footer>
+    <script src="../main/Main.js"></script>
+  </body>
+</html>

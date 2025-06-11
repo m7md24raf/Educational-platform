@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>العوامل المؤثرة في سعر الصرف</title>
+    <link rel="stylesheet" href="../main/Main.css" />
+    <link rel="stylesheet" href="pade 1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="header-right">
+          <button id="menu-btn" class="menu-btn">&#9776;</button>
+          <img src="../logo.jpg" alt="شعار الموقع" class="logo" />
+          <nav class="main-nav">
+    <a href="../main/Main.html">الرئيسية</a>
+          </nav>
+        </div>
+        <div class="header-left">
+          <div class="search-box" style="position: relative">
+            <input type="text" class="search-input" placeholder="ابحث هنا..." />
+            <button class="search-btn">بحث</button>
+            <div
+              id="suggestions"
+              class="suggestions-list"
+              style="
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 45px;
+                background: white;
+                border-radius: 12px;
+                box-shadow: 0 2px 8px #ccc;
+                width: 220px;
+                z-index: 999;
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+    </header>
+ <aside id="sidebar" class="sidebar">
+      <button id="close-sidebar" class="close-btn">&times;</button>
+      <div class="sidebar-content">
+        <div class="progress-bar">
+          <div class="progress" style="width: 3%"></div>
+        </div>
+        <ul class="sidebar-menu">
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu1', this)"
+              >سعر الصرف <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu1" class="submenu">
+              <li><a href="../page1/page 1.1.html">تعريف سعر الصرف</a></li>
+              <li><a href="../page1/page 1.2.html">أنواع سعر الصرف</a></li>
+              <li><a href="../page1/page 1.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page1/page 1.4.html">تطور سعر الصرف</a></li>
+              <li><a href="../page1/page 1.5.html">مشكلات سعر الصرف</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu2',this)"
+              >معدل الادخار <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu2" class="submenu">
+              <li><a href="../page2/page 2.1.html">تعريف معدل الادخار</a></li>
+              <li><a href="../page2/page 2.2.html">أنواع معدل الادخار</a></li>
+              <li><a href="../page2/page 2.3.html">العوامل المؤثرة</a></li>
+              <li><a href="../page2/page 2.4.html">تطور معدل الادخار</a></li>
+              <li><a href="../page2/page 2.5.html">مشكلات معدل الادخار</a></li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu3' ,this)"
+              >العلاقة بينهم <span class="arrow">&#9656;</span></a
+            >
+            <ul id="menu3" class="submenu">
+              <li><a href="../page3/page 3.1.html">تأثير سعر الصرف</a></li>
+              <li><a href="../page3/page 3.2.html">تقلبات سعر الصرف</a></li>
+              <li><a href="../page3/page 3.3.html">استقرار سعر الصرف</a></li>
+              <li><a href="../page3/page 3.4.html">سعر الصرف الحقيقي</a></li>
+              <li><a href="../page3/page 3.5.html">السياسات النقدية</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#" onclick="toggleSubMenu('menu4' ,this)"
+              > بنك مصر <span class="arrow">&#9656;</span></a
+            >
+             <ul id="menu4" class="submenu">
+              <li><a href="../page4/page 4.1.html">نبذة عن بنك مصر</a></li>
+             </ul>
+        </li> 
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <div class="content">
+        <h1>العوامل المؤثرة في سعر الصرف</h1>
+        <img src="../img/img3.png" alt="سعر الصرف" class="content-image" />
+        <p>
+          تتعدد العوامل التي تؤثر في تحديد سعر الصرف لأي عملة، وقد تكون هذه
+          العوامل داخلية تتعلق بالاقتصاد المحلي، أو خارجية ترتبط بالاقتصادات
+          الأخرى. من أبرز العوامل المؤثرة:
+        </p>
+
+        <h2>1. التضخم:</h2>
+        <p>
+          يُعتبر التضخم من العوامل الرئيسية التي تؤثر على قيمة العملة. عندما
+          يرتفع معدل التضخم في دولة ما، تنخفض القدرة الشرائية للعملة، مما يؤدي
+          إلى انخفاض قيمتها مقابل العملات الأخرى. وعلى العكس، يؤدي انخفاض التضخم
+          إلى تعزيز قيمة العملة.
+        </p>
+
+        <h2>2. أسعار الفائدة:</h2>
+        <p>
+          تلعب أسعار الفائدة دورًا كبيرًا في تحديد سعر الصرف. عندما ترفع الدولة
+          أسعار الفائدة، يصبح من الجاذب للمستثمرين الأجانب ضخ أموالهم في هذه
+          الدولة للحصول على عوائد أعلى، مما يزيد الطلب على العملة المحلية ويُرفع
+          قيمتها. والعكس صحيح عند انخفاض أسعار الفائدة.
+        </p>
+
+        <h2>3. الاستقرار السياسي والاقتصادي:</h2>
+        <p>
+          الاستقرار السياسي والاقتصادي يزيد من ثقة المستثمرين في الاقتصاد
+          المحلي. فالدول ذات الأوضاع السياسية والاقتصادية المستقرة تجذب
+          الاستثمارات الأجنبية، مما يساهم في تعزيز قيمة عملتها. بينما الأزمات
+          السياسية أو الاقتصادية قد تؤدي إلى انخفاض قيمة العملة.
+        </p>
+
+        <h2>4. الاحتياطيات النقدية:</h2>
+        <p>
+          احتياطيات النقد الأجنبي التي تحتفظ بها الدولة تُعتبر من العوامل
+          المؤثرة في سعر الصرف. الدول التي تمتلك احتياطيات نقدية كبيرة يمكنها
+          دعم عملتها في حالة انخفاض قيمتها أو تقلباتها الشديدة، مما يسهم في
+          استقرار العملة.
+        </p>
+
+        <h2>5. الميزان التجاري:</h2>
+        <p>
+          يُعتبر الفائض أو العجز في الميزان التجاري أحد العوامل الهامة في تحديد
+          سعر الصرف. الدول التي تحقق فائضًا تجاريًا (أي أن صادراتها تتفوق على
+          وارداتها) تشهد عادةً زيادة في قيمة عملتها، بينما الدول التي تعاني من
+          عجز تجاري قد تشهد انخفاضًا في قيمة العملة.
+        </p>
+
+        <h2>6. العوامل النفسية والتوقعات المستقبلية:</h2>
+        <p>
+          توقعات السوق والمشاعر العامة تؤثر بشكل غير مباشر في سعر الصرف. إذا
+          كانت هناك توقعات بأن العملة المحلية ستتعرض للهبوط في المستقبل، فإن هذا
+          قد يؤدي إلى انخفاض قيمتها بسرعة نتيجة لقيام المستثمرين ببيعها.
+        </p>
+
+        <h2>7. الطلب والعرض:</h2>
+        <p>
+          كأي سلعة أو خدمة أخرى، يتحدد سعر العملة وفقًا لقوى العرض والطلب في
+          السوق. فإذا زاد الطلب على العملة بسبب استثمارات خارجية أو صادرات
+          متزايدة، سترتفع قيمتها، بينما قد تنخفض إذا قل الطلب عليها.
+        </p>
+      </div>
+
+      <a href="../page1/page 1.4.html" class="next-page-btn">
+        <span>الصفحة التالية</span>
+        <i class="fas fa-arrow-left"></i>
+      </a>
+    </main>
+
+    <footer>
+      <p>
+        صنع بواسطة: طلاب نظم ومعلومات |
+        <a href="https://ohi.edu.eg/">ohi.edu.eg</a>
+      </p>
+    </footer>
+    <script src="../main/Main.js"></script>
+  </body>
+</html>
