@@ -5,6 +5,6 @@
     <title>Redirecting...</title>
   </head>
   <body>
-    إذا لم يتم تحويلك تلقائيًا، <a href="main/main.html">اضغط هنا</a>.
+    إذا لم يتم تحويلك تلقائيًا، <a href="[main/main.html](https://github.com/m7md24raf/Educational-platform/blob/main/main/Main.html)">اضغط هنا</a>.
   </body>
 </html>
