@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=../main/main.html" />
+    <meta http-equiv="refresh" content="0; url=[../main/main.html](https://github.com/m7md24raf/Educational-platform/blob/main/main/Main.html)" />
     <title>Redirecting...</title>
   </head>
   <body>
